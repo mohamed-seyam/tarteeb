@@ -1219,3 +1219,29 @@
             border-color: var(--accent-danger);
             color: var(--accent-danger);
         }
+
+        /* App Footer */
+        .app-footer {
+            text-align: center;
+            padding: 2rem 1rem 1.5rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .app-footer p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin: 0;
+        }
+
+        .app-footer a {
+            color: var(--accent-primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .app-footer a:hover {
+            color: var(--accent-secondary);
+            text-decoration: underline;
+        }
