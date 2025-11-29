@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Tarteeb - Task Manager",
+  "version": "1.0.0",
+  "description": "Organize your tasks smartly with focus mode and Pomodoro timer",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Tarteeb"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://unpkg.com https://www.gstatic.com; object-src 'self'"
+}
